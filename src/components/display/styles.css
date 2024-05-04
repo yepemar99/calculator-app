@@ -1,0 +1,20 @@
+.display-container {
+  margin-top: 8px;
+  width: 100%;
+}
+
+.operation-text {
+  text-align: start;
+}
+
+.result-text {
+  text-align: end;
+}
+
+.text-light {
+  color: black;
+}
+
+.text-dark {
+  color: white;
+}

@@ -1,0 +1,19 @@
+.calculator-header {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.theme-button {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.theme-button-dark {
+  background-color: white;
+}
+
+.theme-button-light {
+  background-color: black;
+}

@@ -12,7 +12,7 @@ function App() {
   };
   return (
     <div className="App">
-      <div className="calculator-container">
+      <div className={`calculator-container calculator-container-${theme}`}>
         <Header theme={theme} toggleTheme={toggleTheme} />
         <Display theme={theme} />
         <Keyboard theme={theme} />

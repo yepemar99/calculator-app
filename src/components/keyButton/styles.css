@@ -24,9 +24,13 @@
   white-space: nowrap;
 }
 
+/* morado #4d32db  */
+/* naranja #ff5c00 */
+/* verde #82dd90 */
+
 /* reset button */
 .button-reset-dark {
-  background-color: #4d32db;
+  background-color: #1d2bcf;
   color: white;
 }
 .button-reset-light {
@@ -39,8 +43,8 @@
   color: black;
 }
 .button-number-dark {
-  background-color: #82dd90;
-  color: black;
+  background-color: #363d3d;
+  color: white;
 }
 
 /* Operation button */
@@ -61,7 +65,7 @@
 }
 
 .button-equal-dark {
-  background-color: #ff5c00;
+  background-color: #1d2bcf;
   color: white;
 }
 

@@ -1,14 +1,40 @@
 .display-container {
   margin-top: 8px;
   width: 100%;
+  border: 0.5px solid #989e99;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.mark {
+  min-width: 14px;
+  text-align: start;
+  min-height: 24px;
+}
+.top-display-container {
+  display: flex;
+  max-width: 260px;
+  overflow-x: auto;
 }
 
 .operation-text {
   text-align: start;
+  min-height: 24px;
+}
+
+.top-display-container::-webkit-scrollbar {
+  width: 0; /* Ancho de la barra de desplazamiento */
+  height: 0; /* Altura de la barra de desplazamiento (en el caso de scroll horizontal) */
+}
+
+.operation-text-invert {
+  text-align: end;
+  min-height: 24px;
 }
 
 .result-text {
   text-align: end;
+  min-height: 30px;
 }
 
 .text-light {

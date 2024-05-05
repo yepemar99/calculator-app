@@ -20,6 +20,7 @@ const KeyButton = ({
 }: IKeyButton) => {
   return (
     <button
+      onClick={action}
       className={`key-button button-${color} height-${height} width-${width} ${styles}`}
     >
       {children}
